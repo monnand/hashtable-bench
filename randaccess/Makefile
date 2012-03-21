@@ -1,4 +1,4 @@
-all: randaccess
+all: randaccess HashMapBench.class a.out
 randaccess: test.go
 	go build
 HashMapBench.class: HashMapBench.java
