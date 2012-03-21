@@ -47,7 +47,7 @@ void seq_get_map_benchmark(int N)
 
     mtime = seconds * 1e6 + useconds;
     cout << "Unordered Map Seq. Access. N = " 
-        << N << ". " << mtime/N << "us/op." << endl; 
+        << N << ". " << mtime/N << " us/op." << endl; 
 
 	for (i = 0; i < N; i++) {
 		free(seq[i]);

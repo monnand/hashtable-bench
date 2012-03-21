@@ -26,7 +26,7 @@ func SeqGetMapBenchmark(N int, gc bool) {
 	}
 	duration := time.Since(start)
 
-	fmt.Printf("Map Sequantial Access. N = %v: %v us/op\n",
+	fmt.Printf("Map Seq. Access. N = %v: %v us/op\n",
 		N, duration.Seconds() * 1e6/float64(N))
 }
 
